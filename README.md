@@ -1,2 +1,7 @@
-# medico-diagnosis
- • Developed a Streamlit web application to predict Diabetes, Heart Disease, and Parkinson’s using trained  classification models like Logistic Regression and Random Forest.  • Preprocessed and analyzed healthcare datasets to extract clinical features, training models with over  85% accuracy using scikit-learn.  
+# multiple-disease-prediction-streamlit-app
+This repository contains the codebase for "Multiple Disease Prediction Streamlit App". The training notebooks &amp; the datasets are also provided in the respective folders. 
+
+app.py is the streamlit app code.
+run the command "**pip install -r requirements.txt**" to install the required dependencies for the streamlit app.
+
+You may need to install additional libraries for running the jupyter notebooks.

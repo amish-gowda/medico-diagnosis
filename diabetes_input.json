@@ -1,0 +1,51 @@
+{
+    "Pregnancies": {
+      "descp": "Number of times the person has been pregnant.",
+      "options_req": false,
+      "options": [],
+      "max_range": 20
+    },
+    "Glucose": {
+      "descp": "Plasma glucose concentration during a 2-hour oral glucose tolerance test.",
+      "options_req": false,
+      "options": [],
+      "max_range": 200
+    },
+    "Blood Pressure": {
+      "descp": "Diastolic blood pressure (in mm Hg).",
+      "options_req": false,
+      "options": [],
+      "max_range": 120
+    },
+    "Skin Thickness": {
+      "descp": "Triceps skinfold thickness (in mm).",
+      "options_req": false,
+      "options": [],
+      "max_range": 100
+    },
+    "Insulin": {
+      "descp": "2-hour serum insulin level (in μU/ml).",
+      "options_req": false,
+      "options": [],
+      "max_range": 1000
+    },
+    "BMI": {
+      "descp": "Body Mass Index (weight in kg/(height in m)^2).",
+      "options_req": false,
+      "options": [],
+      "max_range": 70
+    },
+    "Diabetes Pedigree Function": {
+      "descp": "Diabetes pedigree function indicating diabetes likelihood based on family history.",
+      "options_req": false,
+      "options": [],
+      "max_range": 2.5
+    },
+    "Age": {
+      "descp": "Age of the person in years.",
+      "options_req": false,
+      "options": [],
+      "max_range": 100
+    }
+  }
+  

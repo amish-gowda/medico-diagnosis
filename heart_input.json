@@ -1,0 +1,81 @@
+{
+    "age": {
+      "descp": "Age of the person in years.",
+      "options_req": false,
+      "options": [],
+      "max_range": 120
+    },
+    "sex": {
+      "descp": "Gender of the person. 1 = Male, 0 = Female.",
+      "options_req": true,
+      "options": ["Female", "Male"],
+      "max_range": null
+    },
+    "chest_pain": {
+      "descp": "Type of chest pain experienced by the person.0 = No Pain 1 = Typical angina, 2 = Atypical angina, 3 = Non-anginal pain, 4 = Asymptomatic.",
+      "options_req": true,
+      "options": ["No Pain", "Typical angina", "Non-anginal pain", "Asymptomatic"],
+      "max_range": null
+    },
+    "resting_blood_pressure": {
+      "descp": "Resting blood pressure (in mm Hg) measured during the initial examination.",
+      "options_req": false,
+      "options": [],
+      "max_range": 200
+    },
+    "serum_cholesterol": {
+      "descp": "Serum cholesterol level (in mg/dl).",
+      "options_req": false,
+      "options": [],
+      "max_range": 500
+    },
+    "fasting_blood_sugar": {
+      "descp": "Fasting blood sugar greater than 120 mg/dl. 1 = True, 0 = False.",
+      "options_req": true,
+      "options": ["False", "True"],
+      "max_range": null
+    },
+    "resting_ecg": {
+      "descp": "Resting electrocardiographic results. 0 = Normal, 1 = Having ST-T wave abnormality, 2 = Showing probable or definite left ventricular hypertrophy.",
+      "options_req": true,
+      "options": ["Normal", "Having ST-T wave abnormality", "Showing probable or definite left ventricular hypertrophy"],
+      "max_range": null
+    },
+    "maximum_heart_rate": {
+      "descp": "Maximum heart rate achieved during exercise.",
+      "options_req": false,
+      "options": [],
+      "max_range": 220
+    },
+    "exercise_induced_angina": {
+      "descp": "Exercise induced angina. 1 = Yes, 0 = No.",
+      "options_req": true,
+      "options": ["NO", "YES"],
+      "max_range": null
+    },
+    "st_depression": {
+      "descp": "ST depression induced by exercise relative to rest.",
+      "options_req": false,
+      "options": [],
+      "max_range": 10
+    },
+    "slope_peak_exercise_st_segment": {
+      "descp": "Slope of the peak exercise ST segment. 1 = Upsloping, 2 = Flat, 3 = Downsloping.",
+      "options_req": true,
+      "options": ["---Select---", "Upsloping", "Flat", "Downsloping"],
+      "max_range": null
+    },
+    "number_major_vessels": {
+      "descp": "Number of major vessels (0-3) colored by fluoroscopy.",
+      "options_req": true,
+      "options": [0, 1, 2, 3],
+      "max_range": null
+    },
+    "thalassemia": {
+      "descp": "Thalassemia. 3 = Normal, 6 = Fixed defect, 7 = Reversible defect.",
+      "options_req": true,
+      "options": [3, 6, 7],
+      "max_range": null
+    }
+  }
+  

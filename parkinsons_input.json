@@ -1,0 +1,135 @@
+{
+    "fundamental_frequency_mean": {
+      "descp": "Mean fundamental frequency (in Hz).",
+      "options_req": false,
+      "options": [],
+      "max_range": 300
+    },
+    "fundamental_frequency_max": {
+      "descp": "Maximum fundamental frequency (in Hz).",
+      "options_req": false,
+      "options": [],
+      "max_range": 500
+    },
+    "fundamental_frequency_min": {
+      "descp": "Minimum fundamental frequency (in Hz).",
+      "options_req": false,
+      "options": [],
+      "max_range": 200
+    },
+    "jitter_percentage": {
+      "descp": "Jitter (local), a measure of frequency variation in percentage.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.1
+    },
+    "jitter_absolute": {
+      "descp": "Absolute jitter, a measure of frequency variation in seconds.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.001
+    },
+    "relative_average_perturbation": {
+      "descp": "Relative Average Perturbation, a measure of short-term frequency variation.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.05
+    },
+    "five_point_period_perturbation_quotient": {
+      "descp": "Five-point Period Perturbation Quotient, a measure of pitch variation.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.05
+    },
+    "difference_of_difference_of_periods": {
+      "descp": "Average absolute difference of differences between cycles, derived from RAP.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.1
+    },
+    "shimmer_percentage": {
+      "descp": "Shimmer (local), a measure of amplitude variation.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.2
+    },
+    "shimmer_decibels": {
+      "descp": "Shimmer in decibels, a logarithmic measure of amplitude variation.",
+      "options_req": false,
+      "options": [],
+      "max_range": 2
+    },
+    "three_point_amplitude_perturbation_quotient": {
+      "descp": "Three-point Amplitude Perturbation Quotient, a measure of amplitude variation.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.1
+    },
+    "five_point_amplitude_perturbation_quotient": {
+      "descp": "Five-point Amplitude Perturbation Quotient, a measure of amplitude variation.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.1
+    },
+    "amplitude_perturbation_quotient": {
+      "descp": "Amplitude Perturbation Quotient, a measure of overall amplitude variation.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.2
+    },
+    "difference_of_difference_of_amplitudes": {
+      "descp": "Average absolute difference between consecutive differences in amplitude.",
+      "options_req": false,
+      "options": [],
+      "max_range": 0.2
+    },
+    "noise_to_harmonics_ratio": {
+      "descp": "Noise-to-Harmonics Ratio, a measure of voice quality.",
+      "options_req": false,
+      "options": [],
+      "max_range": 1
+    },
+    "harmonics_to_noise_ratio": {
+      "descp": "Harmonics-to-Noise Ratio, a measure of voice quality.",
+      "options_req": false,
+      "options": [],
+      "max_range": 40
+    },
+    "recurrence_period_density_entropy": {
+      "descp": "Recurrence Period Density Entropy, a nonlinear dynamical complexity measure.",
+      "options_req": false,
+      "options": [],
+      "max_range": 1
+    },
+    "detrended_fluctuation_analysis": {
+      "descp": "Detrended Fluctuation Analysis, a measure of fractal scaling properties.",
+      "options_req": false,
+      "options": [],
+      "max_range": 1
+    },
+    "frequency_variation_spread1": {
+      "descp": "Nonlinear measure of frequency variation (spread 1).",
+      "options_req": false,
+      "options": [],
+      "max_range": 10
+    },
+    "frequency_variation_spread2": {
+      "descp": "Nonlinear measure of frequency variation (spread 2).",
+      "options_req": false,
+      "options": [],
+      "max_range": 1
+    },
+    "dynamical_complexity_measure_d2": {
+      "descp": "Dynamical complexity measure (D2).",
+      "options_req": false,
+      "options": [],
+      "max_range": 5
+    },
+    "pitch_period_entropy": {
+      "descp": "Pitch Period Entropy, a measure of voice disorder.",
+      "options_req": false,
+      "options": [],
+      "max_range": 1
+    }
+  }
+  
